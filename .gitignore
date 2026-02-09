@@ -1,0 +1,10 @@
+# Ignore datasets
+data/
+federated/clients/
+
+# Ignore models
+*.pth
+
+# Python
+__pycache__/
+*.pyc

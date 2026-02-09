@@ -1,0 +1,15 @@
+BASE PAPER vs PROPOSED SYSTEM – GAP ANALYSIS
+
+Most existing FL-based IDS studies assume IID data and benign clients.
+They rarely evaluate robustness under poisoning attacks.
+
+This project addresses the following gaps:
+
+1. Non-IID client data distribution is explicitly simulated.
+2. Label flipping attack is introduced to emulate malicious IoT nodes.
+3. Robust median aggregation is implemented to mitigate poisoning.
+4. Centralized IDS is compared against federated IDS.
+5. Multi-class intrusion detection is evaluated instead of binary classification.
+
+Hence, the proposed system extends existing literature by jointly
+addressing data heterogeneity and adversarial robustness.

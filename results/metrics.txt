@@ -1,0 +1,27 @@
+TABLE 1: Centralized vs Federated IDS Performance
+
+Model                     Accuracy
+-----------------------------------
+Centralized IDS           0.9999
+Federated (FedAvg)        0.85
+Federated (Median)        0.88
+
+
+TABLE 2: Impact of Label Flipping Attack
+
+Setting                           Accuracy
+-----------------------------------------
+Federated (No Attack)             0.88
+Federated + Label Flip Attack     0.19
+Federated + Median Defense        0.85
+
+
+TABLE 3: Per-Class Performance (Federated + Attack)
+
+Class   Precision   Recall   F1-Score
+-------------------------------------
+0       0.88        0.94     0.91
+1       0.87        0.81     0.84
+2       0.60        0.78     0.68
+3       0.00        0.00     0.00
+4       0.00        0.00     0.00

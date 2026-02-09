@@ -1,0 +1,16 @@
+DISCUSSION
+
+The results show that federated learning achieves competitive accuracy
+compared to centralized learning while preserving data privacy.
+
+Under label flipping attack, the standard FedAvg aggregation suffers
+a significant accuracy drop, confirming vulnerability to poisoned clients.
+
+Median aggregation demonstrates robustness by limiting the influence
+of malicious updates, recovering substantial accuracy.
+
+Lower performance on minority attack classes is attributed to class
+imbalance and non-IID data distribution across clients.
+
+This highlights a trade-off between robustness and accuracy in
+heterogeneous IoT environments.
